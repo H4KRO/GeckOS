@@ -10,8 +10,26 @@ require (File::build_path(array(
     'controller',
     'ControllerMission.php'
 )));
-    
 
+require (File::build_path(array(
+    'controller',
+    'ControllerMeteo.php'
+)));
+
+require (File::build_path(array(
+    'controller',
+    'ControllerInventaire.php'
+)));
+
+require (File::build_path(array(
+    'controller',
+    'ControllerGPS.php'
+)));
+
+require (File::build_path(array(
+    'controller',
+    'ControllerCanvas.php'
+)));
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $error = null;
 

@@ -11,7 +11,7 @@ class Conf
         'hostname' => 'tomandrikd869.mysql.db',
         'database' => 'tomandrikd869',
         'login' => 'tomandrikd869',
-        'password' => 'Canada2902'
+        'password' => 'NDLgeckos30'
     );
 
     static public function getLogin()

@@ -1,10 +1,10 @@
 <?php
 
-class ControllerMeteo {
+class ControllerCanvas {
         
     public static function display(){  
         
-        $controller = 'meteo';
+        $controller = 'canvas';
         $view= 'detail' ;
         $pagetitle= "Application $controller";
         

@@ -3,16 +3,23 @@ require_once (File::build_path(array('model','ModelMission.php'))); // chargemen
 
 class ControllerMission {
     
-    private $name = "Mission";
     
     public static function display(){  
         
-        $controller = self::name;
+        $controller = 'mission';
         $view= 'detail' ;
         $pagetitle= "Application $controller";
         
         require (File::build_path(array('view' , 'global' , 'view.php')));      
     }
+    
+    public static function mission(){
+        $id = unserialize($_COOKIE['mission'])[0];
+        
+        $mission = ModelMission::getMission();
+    
+    }
+   
 }
 
 

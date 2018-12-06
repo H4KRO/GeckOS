@@ -1,10 +1,10 @@
 <?php
 
-class ControllerMeteo {
+class ControllerGPS {
         
     public static function display(){  
         
-        $controller = 'meteo';
+        $controller = 'gps';
         $view= 'detail' ;
         $pagetitle= "Application $controller";
         

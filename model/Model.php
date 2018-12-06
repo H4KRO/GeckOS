@@ -22,8 +22,9 @@ class Model{
 
 		die();
 		}
-
 	}	
+	
+
 }
 
 Model::Init();
