@@ -1,0 +1,55 @@
+
+nav {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 1;
+	z-index: 2;
+	height: 5%;
+	width: 100%;
+	background-color: #65b91a;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-basis: auto;
+	align-items: center;
+	justify-content: center;
+	padding: 1%;
+	transition: 1s all;
+	align-items: center;
+}
+
+nav * {
+	color: #4a5255;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+* {
+	font-family: 'Noto Sans';
+	color: black;
+}
+
+body:not(footer):not(nav) {
+	margin: 5% 5% 5% 5%;
+	background-color: #4a5255;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	background-color: #65b91a;
+	text-align: center;
+	margin-top: 1%;
+	width: 100%;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+	
+}
