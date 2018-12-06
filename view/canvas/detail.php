@@ -1,46 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Canvas</title>
-    <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-        background: #ccc;
-      }
-      .toolbar {
-        width: 150px;
-        height: 75px;
-        background: #ccc;
-        padding: 5px;
-      }
-      input[type="color"], button {
-        width: 90%;
-        margin: 0 auto;
-        display: block;
-      }
-      input[type="range"] {
-        width: 70%;
-      }
-       span {
-         position: relative;
-         bottom: 5px;
-       }
-    </style>
-  </head>
-  <body>
-    <div class="toolbar">
-      <input type="color" aria-label="select pen color">
-      <input type="range" min="2" max="30" value="8" aria-label="select pen size"><span class="output">8</span>
-      <button>Nettoyer canvas</button>
-    </div>
 
-    <canvas class="myCanvas">
+<div class="app">
+	<div class="toolbar">
+		<input type="color" aria-label="select pen color"> <input type="range"
+			min="2" max="30" value="8" aria-label="select pen size"><span
+			class="output">8</span>
+		<button>Nettoyer canvas</button>
+	</div>
+
+	<canvas class="myCanvas">
       <p>Add suitable fallback here.</p>
     </canvas>
 
-    <script>
+	<script>
       var canvas = document.querySelector('.myCanvas');
       var width = canvas.width = window.innerWidth;
       var height = canvas.height = window.innerHeight-85;
@@ -89,5 +60,4 @@
       }
       draw();
     </script>
-  </body>
-</html>
+</div>

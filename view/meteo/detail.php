@@ -1,1 +1,1 @@
-<p>Meteo</p>
+<div class="app">Meteo</div>
