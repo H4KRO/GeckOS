@@ -17,8 +17,7 @@ class ControllerInventaire{
     public static function display(){          
         $controller = 'inventaire';
         $view= 'detail' ;
-        $pagetitle= "Application $controller";        
-        require (File::build_path(array('view' , 'global' , 'view.php')));      
+        require (File::build_path(array('view' , $controller , "$view.php")));      
     }
     
     public static function getInventaire(){

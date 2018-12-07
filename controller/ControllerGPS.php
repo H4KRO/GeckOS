@@ -6,9 +6,8 @@ class ControllerGPS {
         
         $controller = 'gps';
         $view= 'detail' ;
-        $pagetitle= "Application $controller";
         
-        require (File::build_path(array('view' , 'global' , 'view.php')));      
+        require (File::build_path(array('view' , $controller , "$view.php")));      
     }
 }
 
