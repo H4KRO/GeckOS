@@ -12,8 +12,7 @@ class ControllerInventaire{
         8 => array(array('Foulard', 1), array(1, 3)),
         
         9 => array(array('Bouteilles eau', 1), array(1, 0) ),
-        10 => array(array('Ration de nourriture', 1), array(1, 0)),
-        
+        10 => array(array('Ration de nourriture', 1), array(1, 0)),      
        
     );
     

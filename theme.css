@@ -73,6 +73,7 @@ main {
 }
 
 #app {
+	display:none;
 	height: 50%;
 	position: fixed;
 	width: 80%;
@@ -82,7 +83,6 @@ main {
 	border-radius: 10%;
 	background-image: linear-gradient(#3F3F63, #2D2D78);
 	text-align: center;
-	display: flex;
 	align-items: center;
 }
 
@@ -108,17 +108,17 @@ footer {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	height: 22vh;
+	height: 30vh;
 	width: 100%; /
 	background-image: url("./images/gecko.png"); / /
-	background-size: 22vh;
+	background-size: 30vh;
 	/
 	/* background-repeat: no-repeat;/
             /background-position-x: right;*/
 }
 
 footer img {
-	height: 22vh;
+	height: 30vh;
 	float: right;
 }
 
