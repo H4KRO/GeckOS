@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 
 require_once '../lib/File.php';
 require_once (File::build_path(array('model', 'ModelMission.php')));
@@ -39,6 +38,6 @@ require (File::build_path(array(
     'controller',
     'ControllerNotification.php'
 )));
+ControllerMission::updatedMission();
 
-ControllerInventaire::changeDisponibility(0);
 ?>

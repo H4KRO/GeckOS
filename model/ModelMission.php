@@ -57,8 +57,7 @@ class ModelMission extends Model
             return $mission;
         } catch (PDOException $e) {
             
-            echo($e->getMessage());
-            return $mission;
+            return false;
         }
         
         if (!($mission)) {

@@ -21,6 +21,7 @@ require (File::build_path(array(
     'ControllerInventaire.php'
 )));
 
+
 require (File::build_path(array(
     'controller',
     'ControllerGPS.php'
@@ -30,6 +31,14 @@ require (File::build_path(array(
     'controller',
     'ControllerCanvas.php'
 )));
+
+require (File::build_path(array(
+    'controller',
+    'ControllerNotification.php'
+)));
+
+ControllerInventaire::initInventaire();
+
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $error = null;
 
